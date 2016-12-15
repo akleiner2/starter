@@ -4,7 +4,8 @@
   "description": "Barebones boilerplate for quickly prototyping React apps",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test "
+    "test": "npm run test",
+    "start": "webpack-dev-server --hot --colors --inline --content-base public/"
   },
   "repository": {
     "type": "git",
