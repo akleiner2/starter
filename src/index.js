@@ -1,5 +1,5 @@
-import App from './App';
-import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<App greeting={"hello"} />, document.getElementById('root'));
+import App from './components/App';
+
+ReactDOM.render(<App greeting={'Hello, world!'} />, document.getElementById('root'));

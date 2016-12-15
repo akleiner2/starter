@@ -1,0 +1,8 @@
+{
+    "extends": ["pinterest"],
+    "plugins": ["pinterest"],
+    "env": {
+        "browser": true,
+        "node": true
+    }
+}
